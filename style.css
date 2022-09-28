@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-image: url("https://i.ibb.co/hXpDqnR/delicious-and-healthy-asian-food-on-a-black-textured-background-with-copy-space.jpg");
+  background-attachment: scroll fixed;
+  /*Vai fazer com que a imagem não role p/ baixo*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: luminosity;
+
+}
+
+.flex-container {
+  display: flex;
+  max-width: 992px;
+  margin: auto;
+  width: 100%;
+  min-width: 600px;
+}
+header img{
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  
+}
+
+
+header .titulo {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: block;
+}
+
+.titulo h1 {
+  text-decoration: overline underline;
+  font-style: bold;
+  margin: 5px;
+  color: rgb(231, 136, 73);
+
+}
+
+.titulo p {
+  color: rgb(231, 136, 73);
+  font-size: 20px;
+}
+
+
+.menu {
+  display: block;
+  width: 45%;
+  max-height: 600px;
+  margin-top: 90px;
+  margin-bottom: 0;
+  margin-left: 30px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo-produto {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.titulo-produto p {
+  font-size: 20px;
+  font-style: bold;
+}
+
+span {
+  font-style: italic;
+  text-align: left;
+}
+
+
+
+footer {
+
+  background-color: black;
+  margin-top: 220px;
+  height: 50px;
+  display: block;
+}
+
+.footer {
+  color: white;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-right: 10px;  
+  text-align: center;
+}
